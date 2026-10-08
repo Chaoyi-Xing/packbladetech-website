@@ -14,7 +14,9 @@ The generated site is in `public/` and is ignored by Git. No local deploy comman
 
 ## Publishing
 
-Pushing `main` to `Chaoyi-Xing/packbladetech-website` runs `.github/workflows/pages.yml`. The workflow builds the site and publishes the `public/` artifact to **GitHub Pages for this repository only**. In repository **Settings → Pages**, select **GitHub Actions** as the publishing source and enter `packbladetech.com` as the custom domain. GitHub Pages custom domain settings, not the source `CNAME` file, control the domain for an Actions deployment.
+Pushing `main` to `Chaoyi-Xing/packbladetech-website` runs `.github/workflows/pages.yml`. The workflow builds the site and publishes the `public/` artifact to **GitHub Pages for this repository only**. Before the first deployment, select **GitHub Actions** under repository **Settings → Pages → Build and deployment**. Then rerun the workflow if its first run failed while Pages was disabled. The project preview URL is `https://chaoyi-xing.github.io/packbladetech-website/` after Pages is enabled and deployment succeeds.
+
+Set `packbladetech.com` in the same Pages settings as the custom domain before changing DNS. GitHub Pages custom domain settings control the domain for an Actions deployment.
 
 For Namecheap DNS, use GitHub's current Pages documentation after the repository's Pages domain is configured. The canonical site URL is set in `_config.yml`.
 
