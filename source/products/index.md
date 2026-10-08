@@ -16,4 +16,4 @@ layout: page
 <a class="category-card" href="/products/custom-machine-knives/"><span class="card-index">06</span><h3>Custom Machine Knives</h3><p>Custom-shaped knives discussed from drawings or samples.</p><span class="card-arrow">Explore →</span></a>
 </div>
 
-For a custom part, see [Custom Knives](/custom-knives/) and the [request a quote guidance](/contact/).
+For a custom part, see [Custom Knives](/custom-knives/) or [request a quote by email](mailto:sales@packbladetech.com).

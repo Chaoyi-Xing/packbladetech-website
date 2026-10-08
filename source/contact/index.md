@@ -5,7 +5,7 @@ layout: page
 ---
 # Contact / Request a Quote
 
-<p class="page-intro">The PackBlade Tech business email and online RFQ service are being set up. This page will provide a direct enquiry channel once it is ready.</p>
+<p class="page-intro">Request a quote by emailing <a href="mailto:sales@packbladetech.com"><strong>sales@packbladetech.com</strong></a>. You can attach a drawing or clear photographs of an existing blade to your message.</p>
 
 ## Prepare your enquiry
 
@@ -14,4 +14,4 @@ layout: page
 - Include the quantity needed and any known machine or part reference.
 - Note any requirements that must be confirmed before quotation.
 
-<div class="notice">Online submission is not available yet. Please return when the business contact channel is published.</div>
+<div class="notice">The online RFQ form is not available yet. Please send your enquiry directly to <a href="mailto:sales@packbladetech.com">sales@packbladetech.com</a>.</div>

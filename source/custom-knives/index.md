@@ -15,6 +15,6 @@ layout: page
 
 ## Quotation workflow
 
-Once the new enquiry channel is configured, send the available information. The part requirements can then be reviewed, missing details clarified, and a quotation discussed. A sample or drawing does not by itself confirm a final specification or machine fit.
+Email the available information to [sales@packbladetech.com](mailto:sales@packbladetech.com). The part requirements can then be reviewed, missing details clarified, and a quotation discussed. A sample or drawing does not by itself confirm a final specification or machine fit.
 
-[See contact and RFQ guidance](/contact/) · [Browse products](/products/)
+[Request a quote by email](mailto:sales@packbladetech.com) · [Browse products](/products/)

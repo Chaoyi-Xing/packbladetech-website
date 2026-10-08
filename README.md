@@ -22,4 +22,4 @@ For Namecheap DNS, use GitHub's current Pages documentation after the repository
 
 ## Content status
 
-Product specifications, authentic photography, the official logo, business email, and an RFQ form are pending. The contact page intentionally has no submission form until a working business channel is available.
+Product specifications, authentic photography, the official logo, and an RFQ form are pending. Quote enquiries currently use the tested business email `sales@packbladetech.com`; the contact page has no submission form until a working form service is available.
