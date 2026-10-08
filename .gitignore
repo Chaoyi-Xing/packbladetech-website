@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.backup
+*.zip
+*.tar.gz
+.env
+.env.*
+!.env.example
+db.json
+node_modules/
+public/
+.deploy*/
+themes/*/.git/
+.hexo/

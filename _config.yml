@@ -1,0 +1,37 @@
+title: PackBlade Tech
+subtitle: Packaging Machine Knives & Custom Blades
+description: PackBlade Tech specializes in packaging machine knives and custom industrial blades for packaging and film converting applications.
+keywords: packaging machine knives, custom blades, flow wrapper knives, bag making knives, film cutting knives
+author: PackBlade Tech
+language: en
+timezone: Asia/Hong_Kong
+
+url: https://packbladetech.com
+root: /
+permalink: :year/:month/:day/:title/
+pretty_urls:
+  trailing_index: false
+  trailing_html: false
+
+source_dir: source
+public_dir: public
+theme: landscape
+render_drafts: false
+relative_link: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+
+index_generator:
+  path: ''
+  per_page: 0
+
+sitemap:
+  path: sitemap.xml
+
+robotstxt:
+  useragent: '*'
+  allow:
+    - /
+  sitemap: https://packbladetech.com/sitemap.xml

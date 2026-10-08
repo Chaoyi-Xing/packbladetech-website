@@ -1,0 +1,19 @@
+<%
+  const isHome = page.path === 'index.html';
+  const title = isHome ? config.title : `${page.title} | ${config.title}`;
+  const description = page.description || config.description;
+  const path = String(page.path || 'index.html').replace(/^\/+/, '').replace(/index\.html$/, '');
+  const canonical = config.url.replace(/\/$/, '') + '/' + path;
+%>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= title %></title>
+  <meta name="description" content="<%= description %>">
+  <link rel="canonical" href="<%= canonical %>">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="<%= title %>">
+  <meta property="og:description" content="<%= description %>">
+  <meta property="og:url" content="<%= canonical %>">
+  <link rel="stylesheet" href="<%- url_for('/css/packblade.css') %>">
+</head>
