@@ -5,7 +5,7 @@ layout: page
 ---
 # Packaging Machine Knives
 
-<p class="page-intro">Browse the initial PackBlade Tech categories. Product specifications and authentic photographs will be added as they are confirmed.</p>
+<p class="page-intro">Explore packaging machine knives for cutting, sealing and cutoff, bag making, sachet cutting, and film converting. For a specific part, share a drawing or sample reference.</p>
 
 <div class="card-grid">
 <a class="category-card" href="/products/serrated-packaging-knives/"><span class="card-index">01</span><h3>Serrated Packaging Knives</h3><p>Packaging serrated, T-shaped, and double-sided toothed blade types.</p><span class="card-arrow">Explore →</span></a>

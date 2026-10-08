@@ -5,8 +5,8 @@ layout: page
 ---
 # About PackBlade Tech
 
-PackBlade Tech is focused on packaging machine knives and custom industrial blades for B2B enquiries. The initial range covers serrated packaging knives, flow wrapper knives, bag-making and sealing knives, sachet cutting knives, film cutting and slitting knives, and custom-shaped machine knives.
+PackBlade Tech offers packaging machine knives manufactured in China for international B2B enquiries. The range covers serrated packaging knives, flow wrapper knives, bag-making and sealing knives, sachet cutting knives, film cutting and slitting knives, and custom-shaped machine knives.
 
-This website provides a clear starting point for identifying a knife category and preparing a drawing- or sample-based enquiry. Detailed product specifications and authentic photography will be added as they become available.
+For a specific blade or custom shape, send a drawing or sample reference, a description of the cutting task, and the required quantity to [sales@packbladetech.com](mailto:sales@packbladetech.com).
 
 [Explore products](/products/) · [Contact / Request a Quote](/contact/)
