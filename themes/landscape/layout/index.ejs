@@ -1,4 +1,13 @@
 <section class="hero <%= theme.hero_image ? 'hero--with-image' : 'hero--no-image' %>" aria-labelledby="hero-title">
+  <% if (theme.hero_image) { %>
+    <div class="hero-media">
+      <picture>
+        <source media="(max-width: 640px)" type="image/webp" srcset="<%- url_for('/images/hero-packaging-knives-960.webp') %>">
+        <source type="image/webp" srcset="<%- url_for('/images/hero-packaging-knives.webp') %>">
+        <img src="<%- url_for(theme.hero_image) %>" alt="<%= theme.hero_image_alt %>" width="1672" height="941" fetchpriority="high" decoding="async">
+      </picture>
+    </div>
+  <% } %>
   <div class="shell hero-layout">
     <div class="hero-copy">
       <div class="hero-heading"><h1 id="hero-title">Packaging Machine Knives</h1></div>
@@ -10,9 +19,6 @@
         </div>
       </div>
     </div>
-    <% if (theme.hero_image) { %>
-      <div class="hero-media"><img src="<%- url_for(theme.hero_image) %>" alt="<%= theme.hero_image_alt || 'Packaging machine knife' %>"></div>
-    <% } %>
   </div>
 </section>
 

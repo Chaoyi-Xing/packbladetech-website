@@ -6,8 +6,8 @@ menu:
   Contact: /contact/
 
 # Add approved, local product photographs here when available.
-hero_image:
-hero_image_alt: Packaging machine knife
+hero_image: /images/hero-packaging-knives.png
+hero_image_alt: Illustrative arrangement of serrated packaging machine knives
 category_images:
   serrated-packaging-knives:
   flow-wrapper-knives:
