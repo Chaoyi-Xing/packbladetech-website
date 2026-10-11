@@ -1,6 +1,6 @@
 <%
   const isHome = page.path === 'index.html';
-  const title = isHome ? config.title : `${page.title} | ${config.title}`;
+  const title = page.seo_title || (isHome ? `${config.title} | Packaging Machine Knives & Custom Blades` : `${page.title} | ${config.title}`);
   const description = page.description || config.description;
   const path = String(page.path || 'index.html').replace(/^\/+/, '').replace(/index\.html$/, '');
   const canonical = config.url.replace(/\/$/, '') + '/' + path;
@@ -8,12 +8,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="/favicon.png">
   <title><%= title %></title>
   <meta name="description" content="<%= description %>">
+  <% if (page.noindex) { %><meta name="robots" content="noindex, nofollow"><% } %>
   <link rel="canonical" href="<%= canonical %>">
   <meta property="og:type" content="website">
   <meta property="og:title" content="<%= title %>">
   <meta property="og:description" content="<%= description %>">
   <meta property="og:url" content="<%= canonical %>">
+  <% if (page.category_slug || page.product_id) {
+    const crumbs = [{ name: 'Home', url: config.url + '/' }, { name: 'Products', url: config.url + '/products/' }];
+    if (page.category_slug) crumbs.push({ name: page.title, url: canonical });
+    if (page.product_id) {
+      crumbs.push({ name: page.product_category_title, url: config.url + '/products/' + page.primary_category + '/' });
+      crumbs.push({ name: page.title, url: canonical });
+    }
+    const schema = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((item, index) => ({ '@type': 'ListItem', position: index + 1, name: item.name, item: item.url })) };
+  %><script type="application/ld+json"><%- JSON.stringify(schema).replace(/</g, '\\u003c') %></script><% } %>
+  <% if (page.schema_type === 'TechArticle') {
+    const article = { '@context': 'https://schema.org', '@type': 'TechArticle', headline: page.title,
+      description, mainEntityOfPage: canonical, author: { '@type': 'Organization', name: config.title },
+      publisher: { '@type': 'Organization', name: config.title } };
+  %><script type="application/ld+json"><%- JSON.stringify(article).replace(/</g, '\\u003c') %></script><% } %>
   <link rel="stylesheet" href="<%- url_for('/css/packblade.css') %>">
 </head>

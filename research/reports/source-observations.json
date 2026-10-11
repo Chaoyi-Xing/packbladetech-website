@@ -1,0 +1,32 @@
+[
+  {
+    "observation_id": "ACE-P11-GLOUCESTER-ILLUSTRATIONS",
+    "page": 11,
+    "subject": "Gloucester grouped illustrations",
+    "observation": "Illustrations show 10.000 in length, 0.053 in thickness, widths of 2.125 in or 1.700 in, and elongated slots. The adjacent item rows have distinct slot descriptions, including four 'No slots' rows.",
+    "association": "Ambiguous: illustrations are adjacent to groups of rows, not labelled with individual item numbers.",
+    "source_url": "https://americancuttingedge.com/media/wysiwyg/resource-library/Converting-packaging-2024.pdf",
+    "source_pdf_page": 11,
+    "item_assignment": "none"
+  },
+  {
+    "observation_id": "ACE-P19-TIDLAND-CLASS-II-ILLUSTRATION",
+    "page": 19,
+    "subject": "Tidland Class II illustration",
+    "observation": "OD 5.906 in and ID 3.152 in are shown in a class illustration.",
+    "association": "Class-level illustration; not confirmed for each listed SKU.",
+    "source_url": "https://americancuttingedge.com/media/wysiwyg/resource-library/Converting-packaging-2024.pdf",
+    "source_pdf_page": 19,
+    "item_assignment": "none"
+  },
+  {
+    "observation_id": "ACE-P19-TIDLAND-CLASS-III-ILLUSTRATION",
+    "page": 19,
+    "subject": "Tidland Class III illustration",
+    "observation": "OD 7.874 in and ID 3.150 in are shown in a class illustration.",
+    "association": "Class-level illustration; not confirmed for each listed SKU.",
+    "source_url": "https://americancuttingedge.com/media/wysiwyg/resource-library/Converting-packaging-2024.pdf",
+    "source_pdf_page": 19,
+    "item_assignment": "none"
+  }
+]

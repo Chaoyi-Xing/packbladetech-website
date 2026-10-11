@@ -1,7 +1,16 @@
 menu:
-  Home: /
   Products: /products/
-  Applications: /applications/
   Custom Knives: /custom-knives/
-  About Us: /about/
+  Guides: /guides/
+  About: /about/
   Contact: /contact/
+
+# Add approved, local product photographs here when available.
+hero_image:
+hero_image_alt: Packaging machine knife
+category_images:
+  serrated-packaging-knives:
+  flow-wrapper-knives:
+  bag-making-sealing-knives:
+  sachet-cutting-knives:
+  film-cutting-slitting-knives:

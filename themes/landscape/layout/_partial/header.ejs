@@ -1,14 +1,25 @@
 <header class="site-header">
   <div class="shell header-inner">
-    <a class="wordmark" href="/" aria-label="PackBlade Tech home">PackBlade <span>Tech</span></a>
+    <a class="wordmark" href="/" aria-label="PackBlade Tech home"><img class="brand-icon" src="/images/brand-icon.png" alt="" width="36" height="36"><span class="wordmark-text">PackBlade <span>Tech</span></span></a>
+
     <nav class="site-nav" aria-label="Main navigation">
       <% for (const [label, href] of Object.entries(theme.menu)) { %>
-        <a href="<%= href %>"<% if (page.path === 'index.html' && href === '/') { %> aria-current="page"<% } else if (page.path !== 'index.html' && href !== '/' && ('/' + page.path).startsWith(href)) { %> aria-current="page"<% } %>><%= label %></a>
+        <a href="<%= href %>"<% if (page.path !== 'index.html' && ('/' + page.path).startsWith(href)) { %> aria-current="page"<% } %>><%= label %></a>
       <% } %>
     </nav>
+
     <a class="header-email" href="mailto:sales@packbladetech.com" aria-label="Email sales@packbladetech.com">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m3.5 7 8.5 6 8.5-6"/></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2" y="4.5" width="20" height="15" rx="2"/><path d="m3 6 9 7 9-7"/></svg>
       <span>sales@packbladetech.com</span>
     </a>
+
+    <details class="mobile-menu">
+      <summary>Menu <span aria-hidden="true">+</span></summary>
+      <nav aria-label="Mobile navigation">
+        <% for (const [label, href] of Object.entries(theme.menu)) { %>
+          <a href="<%= href %>"<% if (page.path !== 'index.html' && ('/' + page.path).startsWith(href)) { %> aria-current="page"<% } %>><%= label %></a>
+        <% } %>
+      </nav>
+    </details>
   </div>
 </header>

@@ -1,0 +1,75 @@
+{
+  "total_candidates": 100,
+  "review_pages": 24,
+  "by_source": {
+    "American Cutting Edge": 33,
+    "Cadence Blades": 53,
+    "Stiles Enterprises": 7,
+    "Diehling Direct": 1,
+    "Technopack / Jores Technologies": 6
+  },
+  "by_category": {
+    "bag-making-sealing-knives": 13,
+    "serrated-packaging-knives": 66,
+    "film-cutting-slitting-knives": 14,
+    "flow-wrapper-knives": 7
+  },
+  "review_by_category": {
+    "bag-making-sealing-knives": 9,
+    "serrated-packaging-knives": 14,
+    "flow-wrapper-knives": 1
+  },
+  "completeness": {
+    "documented_reference": 85,
+    "partial": 15
+  },
+  "reference_image_urls": 66,
+  "verified_oem_part_numbers": 0,
+  "documented_supplier_replacement_references": 7,
+  "reference_classes": {
+    "B_brand_no_confirmed_oem_part": 93,
+    "A_documented_replacement_reference": 7
+  },
+  "missing_fields": {
+    "length": 27,
+    "width": 34,
+    "thickness": 22,
+    "outer_diameter": 100,
+    "inner_diameter": 100,
+    "material": 17,
+    "hardness": 100,
+    "cutting_edge_geometry": 15,
+    "bevel_angle": 100,
+    "tooth_profile": 83,
+    "hole_configuration": 99,
+    "slot_configuration": 91
+  },
+  "potential_duplicate_references": [
+    {
+      "manufacturer": "Bosch",
+      "equipment_reference": "8101804135",
+      "product_ids": [
+        "PBT-BS-001",
+        "PBT-BS-012"
+      ]
+    },
+    {
+      "manufacturer": "Hayssen",
+      "equipment_reference": "10137A0430",
+      "product_ids": [
+        "PBT-BS-004",
+        "PBT-BS-005",
+        "PBT-BS-009"
+      ]
+    },
+    {
+      "manufacturer": "Hayssen",
+      "equipment_reference": "10137A0405",
+      "product_ids": [
+        "PBT-BS-006",
+        "PBT-BS-008"
+      ]
+    }
+  ],
+  "discrepancies": 4
+}

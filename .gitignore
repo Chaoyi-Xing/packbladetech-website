@@ -14,3 +14,7 @@ public/
 .deploy*/
 themes/*/.git/
 .hexo/
+research/.venv/
+research/sources/
+research/work/
+research/__pycache__/

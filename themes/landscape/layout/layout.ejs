@@ -4,7 +4,7 @@
   // Relative asset and navigation URLs work on both the project preview path
   // and the eventual custom-domain root without a separate build.
   const prefix = '../'.repeat((String(page.path || 'index.html').match(/\//g) || []).length);
-  const localLinks = html => String(html).replace(/\b(href|src)="\/(?!\/)/g, '$1="' + prefix);
+  const localLinks = html => String(html).replace(/\b(href|src)="\/(?!\/|favicon\.png")/g, '$1="' + prefix);
 %>
 <%- localLinks(partial('_partial/head')) %>
 <body>

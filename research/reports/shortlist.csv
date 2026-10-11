@@ -1,0 +1,25 @@
+product_id,product_name,category,source_key,url,review_notes
+PBT-BS-001,Bosch 8101804135 bagger knife,bag-making-sealing-knives,ace:458-10236001ss,/products/bag-making-sealing-knives/bosch-8101804135-bagger-knife-pbt-bs-001/,PDF calls 8101804135 a model; its reference type requires review.
+PBT-BS-002,Bosch SVE3800 bagger knife,bag-making-sealing-knives,ace:458-154979063,/products/bag-making-sealing-knives/bosch-sve3800-bagger-knife-pbt-bs-002/,
+PBT-SP-001,Cryovac toothed packaging knife (ACE 458-16519040 reference),serrated-packaging-knives,ace:458-16519040,/products/serrated-packaging-knives/cryovac-458-16519040-toothed-packaging-knife-pbt-sp-001/,
+PBT-BS-003,Cryovac PV01S004 bagger knife,bag-making-sealing-knives,ace:458-1651904,/products/bag-making-sealing-knives/cryovac-pv01s004-bagger-knife-pbt-bs-003/,
+PBT-BS-004,Hayssen 10137A0430 bagger knife,bag-making-sealing-knives,ace:458-h195000,/products/bag-making-sealing-knives/hayssen-10137a0430-bagger-knife-pbt-bs-004/,PDF calls 10137A0430 a model; Stiles lists it as a replacement part reference. Material is not stated.
+PBT-BS-005,Hayssen 10137A0430 bagger knife (TiN coated),bag-making-sealing-knives,ace:458-h195000-tin,/products/bag-making-sealing-knives/hayssen-10137a0430-bagger-knife-tin-coated-pbt-bs-005/,Coated variant of ACE 458-H195000; material is not stated.
+PBT-BS-006,Hayssen 10137A0405 bagger knife (TiN coated),bag-making-sealing-knives,ace:458-h175000,/products/bag-making-sealing-knives/hayssen-10137a0405-bagger-knife-tin-coated-pbt-bs-006/,PDF calls 10137A0405 a model; Stiles lists it as a replacement part reference. Material is not stated.
+PBT-SP-002,Multivac 79.912.7137.29 toothed knife,serrated-packaging-knives,ace:458-23815039,/products/serrated-packaging-knives/multivac-79-912-7137-29-toothed-knife-pbt-sp-002/,
+PBT-SP-003,Multivac 79.912.7128.00 zigzag toothed knife,serrated-packaging-knives,ace:458-15915155,/products/serrated-packaging-knives/multivac-79-912-7128-00-zigzag-toothed-knife-pbt-sp-003/,
+PBT-SP-004,Multivac 79.912.7137.00 toothed knife,serrated-packaging-knives,ace:458-15901039,/products/serrated-packaging-knives/multivac-79-912-7137-00-toothed-knife-pbt-sp-004/,
+PBT-SP-015,Hayssen scalloped-edge packaging knife (Cadence SBIP62 reference),serrated-packaging-knives,cadence:sbip62,/products/serrated-packaging-knives/hayssen-sbip62-scalloped-edge-packaging-knife-pbt-sp-015/,
+PBT-SP-016,Hayssen scalloped-edge packaging knife (Cadence SBIP77 reference),serrated-packaging-knives,cadence:sbip77,/products/serrated-packaging-knives/hayssen-sbip77-scalloped-edge-packaging-knife-pbt-sp-016/,
+PBT-SP-017,Hayssen scalloped-edge packaging knife (Cadence SBIP12 reference),serrated-packaging-knives,cadence:sbip12,/products/serrated-packaging-knives/hayssen-sbip12-scalloped-edge-packaging-knife-pbt-sp-017/,
+PBT-SP-018,Triangle scalloped-edge packaging knife (Cadence SBIP27 reference),serrated-packaging-knives,cadence:sbip27,/products/serrated-packaging-knives/triangle-sbip27-scalloped-edge-packaging-knife-pbt-sp-018/,
+PBT-SP-019,Triangle scalloped-edge packaging knife (Cadence SBIP103 reference),serrated-packaging-knives,cadence:sbip103,/products/serrated-packaging-knives/triangle-sbip103-scalloped-edge-packaging-knife-pbt-sp-019/,
+PBT-SP-020,Cryovac toothed packaging knife (Cadence SBIP61 reference),serrated-packaging-knives,cadence:sbip61,/products/serrated-packaging-knives/cryovac-sbip61-toothed-packaging-knife-pbt-sp-020/,
+PBT-SP-021,Cryovac toothed packaging knife (Cadence SBIP71 reference),serrated-packaging-knives,cadence:sbip71,/products/serrated-packaging-knives/cryovac-sbip71-toothed-packaging-knife-pbt-sp-021/,
+PBT-SP-042,Multivac toothed packaging knife (Cadence SBIP76 reference),serrated-packaging-knives,cadence:sbip76,/products/serrated-packaging-knives/multivac-sbip76-toothed-packaging-knife-pbt-sp-042/,
+PBT-SP-051,Rovema toothed packaging knife (Cadence SBIP95 reference),serrated-packaging-knives,cadence:sbip95,/products/serrated-packaging-knives/rovema-sbip95-toothed-packaging-knife-pbt-sp-051/,
+PBT-SP-052,Rovema toothed packaging knife (Cadence SBIP63 reference) (with tear notch),serrated-packaging-knives,cadence:sbip63,/products/serrated-packaging-knives/rovema-sbip63-toothed-packaging-knife-pbt-sp-052/,
+PBT-BS-007,Hayssen 10137A0437 bagger cutting blade,bag-making-sealing-knives,stiles:dd-14250-bqe,/products/bag-making-sealing-knives/hayssen-10137a0437-bagger-cutting-blade-pbt-bs-007/,
+PBT-BS-011,Tetra Laval 3000077269 bagger cutting blade,bag-making-sealing-knives,stiles:dd-14254-bqe,/products/bag-making-sealing-knives/tetra-laval-3000077269-bagger-cutting-blade-pbt-bs-011/,
+PBT-BS-013,Rovema 2.0773.0011 bagger cutting blade,bag-making-sealing-knives,stiles:dd-14256-bqe,/products/bag-making-sealing-knives/rovema-2-0773-0011-bagger-cutting-blade-pbt-bs-013/,
+PBT-FW-001,PFM flow wrapper cutoff blade (Diehling SP71CS0525-DD reference),flow-wrapper-knives,diehling:sp71cs0525-dd,/products/flow-wrapper-knives/pfm-sp71cs0525-dd-flow-wrapper-cutoff-blade-pbt-fw-001/,

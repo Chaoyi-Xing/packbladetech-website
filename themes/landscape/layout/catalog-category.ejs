@@ -1,0 +1,20 @@
+<article class="content-page shell catalog-category">
+  <%- page.content %>
+  <% const cards = (site.data.catalog_cards || []).filter(item => item.primary_category === page.category_slug); %>
+  <% if (cards.length) { %>
+    <section aria-labelledby="references-heading" class="catalog-results">
+      <h2 id="references-heading">Knife reference cards</h2>
+      <p>These supplier catalog references identify knife designs for enquiry. Dimensions and machine fit require confirmation against your existing part.</p>
+      <div class="catalog-card-grid">
+        <% cards.forEach(item => { %>
+          <a class="catalog-card" href="<%= item.url %>">
+            <span class="catalog-card-id"><%= item.product_id %></span>
+            <h3><%= item.product_name %></h3>
+            <p><%= item.summary %></p>
+            <span class="card-arrow">View reference →</span>
+          </a>
+        <% }) %>
+      </div>
+    </section>
+  <% } %>
+</article>
